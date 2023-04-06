@@ -1,0 +1,34 @@
+/* for andoroid */
+@media screen and (max-width:600px){
+    .nav-container_list{
+        display: none;
+    }
+    .navbar .navbar-icon  {
+        display: block;
+    }
+    .nav-container_heading{
+        font-size: 0.875rem;
+    }
+    .herosection{
+        flex-direction: column;
+        width: 90%;
+        
+    }
+    .hero-left{
+        align-items: center;
+        text-align: center;
+        height: 250px;
+        justify-content: space-between;
+        margin-bottom: 80px ;
+        padding-top: 80px;
+        /* padding: 0; */
+    }
+    .hero-left_heading{
+        font-size: 2.5rem;
+        
+    }
+    .hero-left_des{
+        font-size: 1rem;
+    }
+}
+
